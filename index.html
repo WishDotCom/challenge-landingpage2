@@ -3,25 +3,31 @@
   <head>
     <title>Team 4 Website</title>
     
-    <link rel="stylesheet" src="css/designer.css">
-    <link rel="stylesheet" src="css/developer.css">
-    <script src="script.js"></script> 
+    <link rel="stylesheet" href="css/designer.css">
+    <link rel="stylesheet" href="css/developer.css">
+    <script src="js/script.js"></script> 
+    <script src="js/designer.js"></script> 
+
+    <script src="https://kit.fontawesome.com/f05a0611e6.js" crossorigin="anonymous"></script>
    
   </head>
   <body>    
     
     <div class="nav-wrapper">
         <nav>
-            <ul>
-                <li><a href="#" class="nav-link"></a></li>
-                <li><a href="#" class="nav-link"></a></li>
-                <li><a href="#" class="nav-link"></a></li>
-                <li><a href="#" class="nav-link"></a></li>
-                <li><a href="#" class="nav-link"></a></li>
-            </ul>
+
+            <!--Referenced from W3Schools-->
+
+            <div class="dropdown">
+                <button onclick="navButton()" class="dropbtn"><i class="fa-solid fa-bars"></i></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
         </nav>
     </div>
   
   </body>
   
-  </html>
