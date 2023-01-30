@@ -9,10 +9,12 @@ body {
 
 
 .nav-wrapper {
-    background-color: var(--blue-black);
-    color: var(--blue-gray);
+    display:grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    color: var(--blue-black);
     padding: 2%;
     margin: 0px;
+    background-color: green;
 
 }
 
@@ -60,3 +62,4 @@ body {
   .show {display:block;}
 
   /* No longer W3Schools */
+
