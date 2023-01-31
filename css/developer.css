@@ -68,13 +68,10 @@ body {
     padding: 20px;
     font-family: 'inter', sans-serif;
     color: #e8edec;
+    justify-self: end;
    
   }
 
-  .contact-nav > i {
-    margin: 20px;
-    padding: 0px;
-  }
 
   .main-title {
     font-family: 'Lato', sans-serif;
@@ -88,5 +85,4 @@ body {
 
   .address {
     font-weight: bold;
-    align-self: flex-end;
   }
