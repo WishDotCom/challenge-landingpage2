@@ -65,10 +65,18 @@ body {
   .contact-nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0px;
+    padding: 20px;
+    font-family: 'inter', sans-serif;
   }
 
   .contact-nav > i {
-    margin: 0px;
+    margin: 20px;
+    padding: 0px;
+  }
+
+  .main-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+
   }
 
