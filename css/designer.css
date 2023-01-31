@@ -4,12 +4,16 @@ body {
     --purple-navy: #474973;
     --oxford-blue: #161B33;
     --blue-black: #0D0C1D;
+}
 
+.header-wrap {
     background-image: url(../images/Background-images/pier68-boats-edit.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
+
+
 
 header {
     width: 100%;
