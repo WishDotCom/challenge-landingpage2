@@ -28,7 +28,7 @@ body {
     cursor: pointer;
   }
   
-  .dropbtn:hover, .dropbtn:focus {
+  .dropbtn:focus {
     background-color: var(--oxford-blue);
   }
   
@@ -61,4 +61,14 @@ body {
   .show {display:block;}
 
   /* No longer W3Schools */
+
+  .contact-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+  }
+
+  .contact-nav > i {
+    margin: 0px;
+  }
 
