@@ -5,3 +5,7 @@ body {
     --oxford-blue: #161B33;
     --blue-black: #0D0C1D;
 }
+
+header {
+    background-image: url(../images/Background-images/pier68-boats.jpg);
+}
