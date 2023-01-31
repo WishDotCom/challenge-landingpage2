@@ -10,7 +10,7 @@ body {
 
 .nav-wrapper {
     display:grid;
-    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-columns: 2fr 20% 2fr;
     color: var(--blue-black);
     padding: 2%;
     margin: 0px;
@@ -67,7 +67,7 @@ body {
     grid-template-columns: 1fr 1fr;
     padding: 20px;
     font-family: 'inter', sans-serif;
-    
+    color: #e8edec;
    
   }
 
@@ -79,10 +79,14 @@ body {
   .main-title {
     font-family: 'Lato', sans-serif;
     font-size: 2em;
-    color: #f2ebe6;
+    color: #e8edec;
+    border: 5px solid #e8edec;
+    padding: 2px;
+    text-align: center;
 
   }
 
   .address {
     font-weight: bold;
+    align-self: flex-end;
   }
