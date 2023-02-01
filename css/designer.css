@@ -133,26 +133,3 @@ section {
     border-top: 10px solid var(--oxford-blue);
 
 }
-
-.boat {
-  background-color: #161B33;
-}
-
-main > .boat {
-  width: 400px;
-}
-
-main > .boat {
-  text-align: center;
-}
-
-main > .boat > .img-wrapper > img {
-  width: 50%;
-  height: 50%;
-}
-
-main > .boat > .img-wrapper {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
