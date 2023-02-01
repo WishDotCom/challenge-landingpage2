@@ -70,7 +70,7 @@ body {
 
   .contact-nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 20px;
     font-family: 'inter', sans-serif;
     color: #e8edec;
