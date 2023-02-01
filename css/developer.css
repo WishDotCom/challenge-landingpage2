@@ -7,6 +7,7 @@ body {
     --building-red: #d15454;
     --building-yellow: #F2C53D;
     margin: 0;
+    background-color: var(--blue-gray)
 }
 
 
@@ -130,7 +131,8 @@ body {
   main > div {
     margin: 100px;
     font-family: 'inter', sans-serif;
-    color: var(--blue-gray)
+    color: var(--blue-gray);
+    font-size: 25px;
   }
 
  
