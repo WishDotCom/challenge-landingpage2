@@ -89,18 +89,21 @@ body {
   }
 
   footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
     padding: 5%;
     background-color: var(--oxford-blue);
     margin: 0px;
+
   }
 
-  footer > a {
+  footer > div > a {
     color: var(--almond);
     text-decoration: none;
     font-family: 'inter', sans-serif;
   }
 
-  footer > a:hover {
+  footer > div > a:hover {
     color: var(--blue-gray);
   }
 
@@ -121,7 +124,7 @@ body {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     padding: 10%;
     margin: 10px;
 
@@ -140,6 +143,10 @@ body {
   .boat-img {
     height: 200px;
   }
+
+
+
+
 
 
 
