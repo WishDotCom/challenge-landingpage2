@@ -108,14 +108,14 @@ body {
   }
 
   .map {
-    margin: 20px 30%;
+    margin: -411px 30%;
     padding: 30px;
   }
 
   .map-section {
     display: flex;
     padding: 20%;
-    background-color: lightgrey;
+    background-color: var(--blue-gray);
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
