@@ -1,9 +1,18 @@
 body {
+    --almond: #F1DAC4;
+    --blue-gray: #A69CAC;
+    --purple-navy: #474973;
+    --oxford-blue: #161B33;
+    --blue-black: #0D0C1D;
+    --building-red: #d15454;
+    --building-yellow: #F2C53D;
+    margin: 0;
     background-color: rgb(66, 77, 87);
+    font-family: 'inter', sans-serif;
 }
 
 .main-title {
-    color: black;
+    color: var(--almond);
     border-color: black;
 
 
