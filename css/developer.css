@@ -94,6 +94,7 @@ body {
   footer {
     padding: 5%;
     background-color: var(--oxford-blue);
+    margin: 0px;
   }
 
   footer > a {
@@ -123,16 +124,25 @@ body {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     padding: 10%;
     margin: 10px;
 
   }
 
-  main > div {
-    margin: 100px;
+  .boat{
+    background-color: var(--oxford-blue);
+    margin: 2% 50px;
     font-family: 'inter', sans-serif;
     color: var(--blue-gray);
     font-size: 25px;
+    padding: 30px;
   }
+
+  .boat-img {
+    height: 200px;
+  }
+
+
 
  
