@@ -19,6 +19,9 @@ header {
     height: 450px;
     background-color: lightgray;
     border-top: 10px solid var(--oxford-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -128,5 +131,5 @@ section {
     height: 450px;
     background-color: lightgray;
     border-top: 10px solid var(--oxford-blue);
-    
+
 }
