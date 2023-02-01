@@ -22,8 +22,8 @@ body {
 /* Referenced from W3Schools */
 
 .dropbtn {
-    background-color: var(--blue-gray);
-    color: white;
+    background-color: var(--building-red);
+    color: var(--building-yellow);
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -103,4 +103,24 @@ body {
 
   footer > a:hover {
     color: var(--blue-gray);
+  }
+
+  .map {
+    margin: 20px 30%;
+    padding: 30px;
+
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10%;
+    margin: 10px;
+
+  }
+
+  main > div {
+    margin: 100px;
+    font-family: 'inter', sans-serif;
+    color: var(--blue-gray)
   }
